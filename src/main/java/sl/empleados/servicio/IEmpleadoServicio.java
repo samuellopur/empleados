@@ -1,7 +1,6 @@
 package sl.empleados.servicio;
 
 import sl.empleados.modelo.Empleado;
-
 import java.util.List;
 
 public interface IEmpleadoServicio {
