@@ -19,7 +19,6 @@ public class IndexControlador {
     EmpleadoServicio empleadoServicio;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-
     public String iniciar(ModelMap modelo){
         List<Empleado> empleados = empleadoServicio.listarEmpleados();
         empleados.forEach(empleado -> logger.info(empleado.toString()));
